@@ -56,6 +56,5 @@ support older browsers that don't implement these.
 
 ## Types
 
-Full [Flow Type](http://flowtype.org/) declarations for this module are
-included! If you're using Flow, then no extra setup is necessary to take
-advantage of them.
+[Flow](https://flowtype.org/) type declarations for this module are included!
+If you are using Flow, they won't require any configuration to use.
