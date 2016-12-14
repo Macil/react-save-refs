@@ -13,7 +13,7 @@ export default function saveRefs(m: Map<any,Object>, key: any): RefFn {
       if (el) {
         m.set(key, el);
       } else {
-        saver.cache.delete(key);
+        (saver:any).cache.delete(key);
         m.delete(key);
       }
     });
