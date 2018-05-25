@@ -1,7 +1,7 @@
 # react-save-refs
 
 [![Circle CI](https://circleci.com/gh/AgentME/react-save-refs.svg?style=shield)](https://circleci.com/gh/AgentME/react-save-refs)
-[![npm version](https://badge.fury.io/js/react-save-refs.svg)](https://badge.fury.io/js/react-save-refs)
+[![npm version](https://badge.fury.io/js/react-save-refs.svg)](https://badge.fury.io/js/react-save-refs) [![Greenkeeper badge](https://badges.greenkeeper.io/AgentME/react-save-refs.svg)](https://greenkeeper.io/)
 
 This is a small utility function to make it easy for React components to deal
 with refs on dynamically created elements.
