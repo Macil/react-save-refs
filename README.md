@@ -50,8 +50,8 @@ element is unmounted, so React knows that it doesn't need to call the ref
 callback with null and then the element on every re-render.
 
 This relies on Map and WeakMap being available globally. A global polyfill such
-as [Babel's polyfill](https://babeljs.io/docs/usage/polyfill/) is required to
-support older browsers that don't implement these.
+as [Babel's polyfill](https://babeljs.io/docs/en/babel-polyfill/) is required
+to support older browsers that don't implement these.
 
 ## Types
 
