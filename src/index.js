@@ -2,7 +2,7 @@
 
 import memoize from 'lodash/memoize';
 
-type RefFn = (el: ?Object) => void;
+type RefFn = (el: Object|null) => void;
 
 const saversByMap: WeakMap<Map<any,Object>, (key: any) => RefFn> = new WeakMap();
 

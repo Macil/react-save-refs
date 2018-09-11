@@ -3,10 +3,11 @@
   "version": "1.0.2",
   "description": "Utility for keeping references to multiple React elements.",
   "main": "js/index.js",
+  "types": "index.d.ts",
   "sideEffects": false,
   "scripts": {
     "prepare": "rimraf js/ && babel -s inline -d js/ src/ && flow-copy-source -v src js",
-    "test": "yarn run lint && yarn run flow_check && mocha",
+    "test": "yarn run lint && yarn run flow_check && mocha && tsc",
     "flow_check": "flow check",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix"
@@ -41,7 +42,8 @@
     "flow-bin": "^0.80.0",
     "flow-copy-source": "^2.0.0",
     "mocha": "^5.2.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "typescript": "^3.0.3"
   },
   "greenkeeper": {
     "ignore": [

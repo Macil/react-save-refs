@@ -4,6 +4,8 @@
     "@babel/preset-flow"
   ],
   "plugins": [
-    "add-module-exports"
+    ["add-module-exports", {
+      "addDefaultProperty": true
+    }]
   ]
 }
