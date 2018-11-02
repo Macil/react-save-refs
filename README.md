@@ -5,6 +5,8 @@
 This is a small utility function to make it easy for React components to deal
 with refs on dynamically created elements.
 
+**This package is deprecated in favor of [react-multi-ref](https://github.com/Macil/react-multi-ref). Its API is better and avoids the need for a WeakMap internally.**
+
 The following example code assumes Babel with support for classes, JSX, and
 property initializers is in use. You can get that by using the es2015, stage-1,
 and react presets together.
