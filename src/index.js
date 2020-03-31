@@ -2,11 +2,11 @@
 
 import memoize from 'lodash/memoize';
 
-type RefFn = (el: Object|null) => void;
+type RefFn = (el: any|null) => void;
 
-const saversByMap: WeakMap<Map<any,Object>, (key: any) => RefFn> = new WeakMap();
+const saversByMap: WeakMap<Map<any,any>, (key: any) => RefFn> = new WeakMap();
 
-export default function saveRefs(m: Map<any,Object>, key: any): RefFn {
+export default function saveRefs<K>(m: Map<K,any>, key: K): RefFn {
   let saver = saversByMap.get(m);
   if (!saver) {
     saver = memoize(key => el => {
