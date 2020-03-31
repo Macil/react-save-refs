@@ -1,3 +1,7 @@
+## 1.2.0 (2020-03-31)
+
+* Updated TypeScript and Flow type definitions to be stricter. There is no runtime change, but this may cause type-checking to fail for people who were using a type-checking system and were passing incorrect types to react-save-refs.
+
 ## 1.1.0 (2018-09-11)
 
 * Added TypeScript type definitions.
